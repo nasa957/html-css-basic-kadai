@@ -1,0 +1,77 @@
+
+ html  {
+  font-family: "Arial", "Meiryo", sans-serif;
+
+  font-size: 20px;
+  
+  color: black;
+}
+
+body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+h1{
+
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid rgb(115, 115, 114);
+    color: black;
+
+}
+
+#first-heading {
+  font-family:sana-serif;
+
+  font-size: 40px;
+
+  color: black;
+}
+
+
+
+h2 {
+  font-size: 20px;
+
+  color:  pink;
+
+   color: skyblue;
+   
+}
+
+/* フォントカラー */
+p {
+  color:black ;
+}
+
+
+/* その他の装飾 */
+body {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 1.2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-bottom: 3px solid rgb(115, 115, 114);
+}
+
+.decoration{
+
+  font-weight: bold;
+
+}
+
+.pink {
+
+  color: pink;
+
+}
+
+.blue{
+
+  color: skyblue;
+
+}
