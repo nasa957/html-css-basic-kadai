@@ -5,16 +5,24 @@
   font-size: 20px;
   
   color: black;
+
+
+  letter-spacing: 1.2em;
+    
 }
 
 body{
   font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
 }
+
 h1{
 
   font-family: 'Josefin Sans', sans-serif;
   
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid rgb(115, 115, 114);
+
     font-size: 40px;
     
     color: black;
