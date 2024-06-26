@@ -1,40 +1,50 @@
-/* フォントの種類 */
-body {
+
+ html  {
   font-family: "Arial", "Meiryo", sans-serif;
-}
 
-h1 {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-/* フォントサイズ */
-:root {
   font-size: 20px;
+  
+  color: black;
+
+
+    
 }
 
-h1 {
-  font-size: 40px;
+body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+h1{
+
+  font-family: 'Josefin Sans', sans-serif;
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid rgb(115, 115, 114);
+
+    font-size: 2em;
+    
+    color: black;
+
+}
+
+
+
+
+h2 {
+  font-size: 20px;
+
+  color:  pink;
+
+   color: skyblue;
+   
 }
 
 /* フォントカラー */
-#profile-title span:first-letter {
+p {
   color:black ;
 }
 
-#profile-title span:nth-child(2) {
-  color: pink;
-}
-
-#basic,
-#basic p {
-  color: pink;
-}
-
-#basic h1,
-#basic h1 + p,
-#basic h1 + p + p {
-  color: skyblue;
-}
 
 /* その他の装飾 */
 body {
@@ -47,12 +57,20 @@ h1 {
   border-bottom: 3px solid rgb(115, 115, 114);
 }
 
-#basic {
-  font-weight: normal;
+.decoration{
+
+  font-weight: bold;
+
 }
 
-#basic div:first-child,
-#basic div:first-child + p,
-#basic div:first-child + p + p {
-  font-weight: bold;
+.pink {
+
+  color: pink;
+
+}
+
+.blue{
+
+  color: skyblue;
+
 }
